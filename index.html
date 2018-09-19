@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CIA World Factbook Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Ultra" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/app.js" defer></script>
+
+</head>
+
+<body class="h-100">
+    <div class="container h-100 justify-content-center text-center">
+        <div class="header border border-dark rounded">
+            <h1>World Trivia</h1>
+            <h4 id="game-timer"><strong>Timer: </strong></h4>
+            <h5 id="game-msg"><strong>Why, hello there...</strong></h5>
+            <hr>
+        </div>
+        <div class="game-content rounded">
+            <div class="question-view rounded"></div>
+            <div class="score-view"></div>
+        </div>
+        <button type="button" class="btn btn-primary" id="submit-btn">Submit</button>
+        <button type="button" class="btn btn-primary" id="start-btn">Start</button>
+    </div>
+</body>
+
+</html>
