@@ -105,7 +105,7 @@ let correct = 0;
 let incorrect = 0;
 let timer = 0;
 let timerInterval;
-let timePerQuestion = 15;
+let timePerQuestion = 30;
 let countQ = 0;
 let wrong = false;
 let unanswered = 0;
